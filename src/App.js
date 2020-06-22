@@ -1,26 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import TestHook from './tests/test1'
+import TestTwo from './tests/test2'
+import TestHeader from './tests/test3'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+// Hello! Welcome to the Bright Bridge Web react interview test. This test is made specifically for testing some basic react skills we require on a
+// day to day basis. There will be 3 tasks, ranging from easy to hard. We expect you to be able to solve all 3 in one go, but obviously we understand
+// any sort of challenges that may come up. 
+
+return (
+  <div>
+    <TestHook />
+    <TestTwo />
+    <TestHeader />
+  </div>
+  )
 }
+
 
 export default App;
